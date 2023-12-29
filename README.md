@@ -1,7 +1,9 @@
 # MagiskFrida
 
 **里面放的是 strong frida**
+
 **https://github.com/hzzheyang/strongR-frida-android/releases**
+
 **改的build里面的链接就能自己编译了**
 
 
