@@ -1,8 +1,8 @@
 # MagiskFrida
 
-**里面放的是 strong frida
-https://github.com/hzzheyang/strongR-frida-android/releases
-改的build里面的链接就能自己编译了**
+**里面放的是 strong frida**
+**https://github.com/hzzheyang/strongR-frida-android/releases**
+**改的build里面的链接就能自己编译了**
 
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ViRb3/magisk-frida/main.yml?branch=master)
@@ -16,12 +16,6 @@ https://github.com/hzzheyang/strongR-frida-android/releases
 ## Supported architectures
 
 `arm64`, `arm`, `x86`, `x86_64`
-
-## Instructions
-
-Install `MagiskFrida.zip` from [the releases](https://github.com/ViRb3/magisk-frida/releases)
-
-> :information_source: Do not use the Magisk repository, it is obsolete and no longer receives updates
 
 ## How fast are frida-server updates?
 
