@@ -81,8 +81,8 @@ def fill_module(arch: str, frida_tag: str, project_tag: str):
 
     #frida_download_url = f"https://github.com/frida/frida/releases/download/{frida_tag}/"
     #frida_server = f"frida-server-{frida_tag}-android-{arch}.xz"
-    frida_download_url = f"https://github.com/hzzheyang/strongR-frida-android/releases/download/16.1.10/"
-    frida_server = f"hluda-gadget-16.1.10-android-arm64.so.xz"
+    frida_download_url = f"https://github.com/hzzheyang/strongR-frida-android/releases/download/{frida_tag}/"
+    frida_server = f"hluda-server-{frida_tag}-android-{arch}.xz"
     frida_server_path = PATH_DOWNLOADS.joinpath(frida_server)
 
     download_file(frida_download_url + frida_server, frida_server_path)
