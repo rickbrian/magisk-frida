@@ -41,6 +41,7 @@ def main():
     print(last_project_tag)
     print(last_commit_tag)
     print(new_project_tag)
+    last_frida_tag="16.1.3"
     build.do_build(last_frida_tag, new_project_tag)
 
 
