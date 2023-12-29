@@ -97,7 +97,7 @@ def create_updater_json(project_tag: str):
     updater ={
         "version": project_tag,
         "versionCode": int(project_tag.replace(".", "").replace("-", "")),
-        "zipUrl": f"https://github.com/rickbrian/magisk-frida/releases/download/{project_tag}/MagiskFrida-{project_tag}.zip",
+        "zipUrl": f" ",
         "changelog": " "
         #"zipUrl": f"https://github.com/rickbrian/magisk-frida/releases/download/{project_tag}/MagiskFrida-{project_tag}.zip",
         #"changelog": "https://github.com/rickbrian/magisk-frida/blob/master/CHANGELOG.md"
