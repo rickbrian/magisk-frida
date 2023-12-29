@@ -4,7 +4,7 @@
 
 **https://github.com/hzzheyang/strongR-frida-android/releases**
 
-**改的build里面的链接就能自己编译了**
+**改的build里面的链接就行了，在actions里面自己编译的**
 
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ViRb3/magisk-frida/main.yml?branch=master)
