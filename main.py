@@ -37,7 +37,10 @@ def main():
             the_file.write(new_project_tag)
     else:
         print("All good!")
-
+    print(last_frida_tag)
+    print(last_project_tag)
+    print(last_commit_tag)
+    print(new_project_tag)
     build.do_build(last_frida_tag, new_project_tag)
 
 
