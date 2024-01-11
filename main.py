@@ -46,7 +46,7 @@ import util
 
 def main():
 
-    last_frida_tag = "16.1.3"
+    last_frida_tag = "16.1.10"
     new_project_tag = "0"
     
     new_project_tag = util.get_next_revision(last_frida_tag)
