@@ -57,9 +57,8 @@ def create_module_prop(path: Path, project_tag: str):
 name=MagiskFrida
 version={project_tag}
 versionCode={project_tag.replace(".", "").replace("-", "")}
-author=ViRb3
-description=Run frida-server on boot
-updateJson=https://github.com/rickbrian/magisk-frida/releases/latest/download/updater.json"""
+author=test
+description=Run frida-server(strongR-frida-android) on boot"""
 
     with open(path.joinpath("module.prop"), "w", newline="\n") as f:
         f.write(module_prop)
